@@ -150,9 +150,7 @@ body {
 }
 
 h3 {
-  /* display: flex; */
   line-height: 1.15;
-  /* font-size: 24px; */
   font-weight: bolder;
 }
 
@@ -237,9 +235,6 @@ h3 {
   margin: 100px auto 0;
   text-align: center;
   justify-content: center;
-}
-
-.section-title__theme_dark h4 {
   margin: 0;
   padding: 0;
 }
@@ -254,15 +249,11 @@ h3 {
   text-align: center;
   justify-content: center;
   margin-top: 20px;
-}
-
-.section-subtitle__theme_dark p {
   margin: 0;
   padding: 0;
 }
 
 .table__cell_theme_dark {
-  /* color: white; */
   margin-right: 0;
   margin-top: 80px;
   margin-bottom: 80px;
