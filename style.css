@@ -12,8 +12,6 @@ body {
   background-color: #f2f2f2;
   position: relative;
   display: flex;
-  min-height: 600px;
-  max-height: 756px;
 }
 
 .logo {
@@ -298,12 +296,6 @@ h3 {
   z-index: 1;
 }
 
-.table_theme_dark {
-  color: #fff;
-  position: relative;
-  z-index: 2;
-}
-
 .section-title__theme_dark {
   color: #fff;
   font-size: 60px;
@@ -338,7 +330,6 @@ h3 {
 }
 
 .table__cell_theme_dark {
-  /*width: 200px;*/
   color: white;
   margin-right: 0;
   margin-top: 80px;
@@ -383,7 +374,6 @@ h3 {
 }
 
 .footer__author {
-  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -391,6 +381,7 @@ h3 {
   bottom: 40px;
   margin: 18px 0;
 }
+
 .footer__column-heading {
   margin-bottom: 20px;
   line-height: 30px;
