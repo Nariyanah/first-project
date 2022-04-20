@@ -299,7 +299,7 @@ h3 {
 }
 .footer__columns {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   width: 90%;
   margin-bottom: 40px;
@@ -312,7 +312,7 @@ h3 {
 }
 
 .footer__column_content_copyright {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -332,6 +332,7 @@ h3 {
 }
 
 .footer__column-heading {
+  margin-top: 0;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
