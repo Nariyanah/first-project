@@ -7,6 +7,7 @@
 
 .header {
   height: 100vh;
+  min-width: 1300px;
   min-height: 600px;
   max-height: 765px;
   background-color: #f2f2f2;
@@ -64,7 +65,7 @@
   background-size: cover;
 }
 
-.header__main-illustration-pic {
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -152,6 +153,13 @@
   margin: auto;
 }
 
+.table-heading {
+  display: flex;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .table__text {
   display: flex;
   line-height: 1.2;
@@ -222,7 +230,7 @@
   padding-bottom: 90px;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: #fff;
   font-size: 60px;
   line-height: 1.15;
@@ -232,9 +240,11 @@
   text-align: center;
   justify-content: center;
   padding: 0;
+  z-index: 2;
+  position: relative;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
   font-size: 24px;
   line-height: 34px;
@@ -264,7 +274,7 @@
   font-size: 18px;
   font-weight: normal;
 }
-.triangle {
+.kaufman__triangle {
   width: 877px;
   height: 877px;
   position: absolute;
