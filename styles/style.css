@@ -158,7 +158,6 @@ h3 {
   display: flex;
   line-height: 1.2;
   font-size: 18px;
-  /* font-weight: normal; */
   margin-top: 20px;
 }
 
@@ -299,7 +298,6 @@ h3 {
 }
 .footer__columns {
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-between;
   width: 90%;
   margin-bottom: 40px;
@@ -312,7 +310,7 @@ h3 {
 }
 
 .footer__column_content_copyright {
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
   flex-basis: 711px;
 }
