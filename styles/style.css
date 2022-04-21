@@ -142,7 +142,7 @@
   margin: auto;
 }
 
-.table-heading {
+.table__heading {
   display: flex;
   line-height: 1.15;
   font-size: 24px;
