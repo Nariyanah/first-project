@@ -6,8 +6,6 @@
 }
 
 .header {
-  height: 100vh;
-  min-width: 1300px;
   min-height: 600px;
   max-height: 765px;
   background-color: #f2f2f2;
@@ -101,6 +99,7 @@
   margin: 0 0 30px;
   font-size: 24px;
   font-weight: normal;
+  line-height: 34px;
 }
 
 .two-columns__paragraph:last-child {
@@ -148,6 +147,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
+  margin: 0;
 }
 
 .table__text {
@@ -155,6 +155,7 @@
   line-height: 1.2;
   font-size: 18px;
   margin: 0;
+  padding-top: 20px;
 }
 
 .table__cell {
@@ -175,7 +176,6 @@
 .feynman__title {
   margin: 0 auto;
   padding-top: 100px;
-  top: 100px;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -203,6 +203,7 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .kaufman {
